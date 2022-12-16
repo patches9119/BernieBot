@@ -65,4 +65,4 @@ def botMain():
          # print("Tweeted successfully!")
       else:
          sendMultiTweet(tweet)
-   time.sleep(120)
+   time.sleep(120) #need to update this so tweets are properly spaced this will tweet out every 2 min
