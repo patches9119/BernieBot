@@ -1,5 +1,5 @@
 # BernieBot
-
+![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVXpPI0J02qZdRQ_91OA85jFE_sZGJt1IOWruipEmySI10OU19Qx8S6e_6ftG5CyqQREk&usqp=CAU)
  ## Description
  Insert Description Here
 
