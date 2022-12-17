@@ -64,6 +64,6 @@ def botMain():
          # print("Tweeted successfully!")
       else:
          sendMultiTweet(tweet)
-   time.sleep(21600)
+      time.sleep(4*60*60) # stops the program for 6 hours
 
 botMain()
