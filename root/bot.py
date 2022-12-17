@@ -53,7 +53,6 @@ def sendMultiTweet(tweet):
       api.update_status(status = tweet, in_reply_to_status_id = lastTweet , auto_populate_reply_metadata=True)
    # print("successfully Tweeted!")
 
-
 # main function that will have the bot tweet out once every 6 hours until it runs out of tweets
 #
 # this functionality would be fixed in a later update not either not using hand chosen tweets in a text file or...
@@ -65,4 +64,6 @@ def botMain():
          # print("Tweeted successfully!")
       else:
          sendMultiTweet(tweet)
-   time.sleep(120) #need to update this so tweets are properly spaced this will tweet out every 2 min
+   time.sleep(21600)
+
+botMain()
